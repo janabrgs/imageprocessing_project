@@ -28,28 +28,24 @@ The final output is a duplex-ready printable PDF file.
 
 ## Project Structure
 
+```text
 imageprocessing_project/
-│
+├── README.md
+├── .gitignore
+├── data.yaml
 ├── data/
-│ ├── images/
-│ │ ├── train/
-│ │ └── val/
-│ │
-│ └── labels/
-│ ├── train/
-│ └── val/
-│
+│   ├── images/
+│   │   ├── train/
+│   │   └── val/
+│   └── labels/
+│       ├── train/
+│       └── val/
 ├── flashcards/
-│ ├── front/
-│ └── back/
-│
+│   ├── front/
+│   └── back/
 ├── notebooks/
-│
-├── print_pages/
-│ └── print_short_edge.pdf
-│
-└── data.yaml
-
+└── print_pages/
+    └── print_short_edge.pdf
 
 ---
 
