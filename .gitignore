@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+labelimg39/
+
+# YOLO runs
+runs/
+
+# Cache
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large training artifacts
+*.pt
