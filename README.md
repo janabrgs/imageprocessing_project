@@ -1,6 +1,6 @@
 # Flashcard Detection & Automated Print Pipeline
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a complete computer vision workflow to automatically generate printable flashcards from scanned learning sheets.
 
@@ -16,7 +16,7 @@ The final output is a duplex-ready printable PDF file.
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python  
 - YOLOv8 (Ultralytics)  
@@ -26,7 +26,7 @@ The final output is a duplex-ready printable PDF file.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 imageprocessing_project/
 │
@@ -53,7 +53,7 @@ imageprocessing_project/
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 ### 1️⃣ Data Annotation
 Flashcard regions were manually annotated using LabelImg in YOLO format.
@@ -76,7 +76,7 @@ Special handling was implemented to ensure correct duplex alignment so that each
 
 ---
 
-## 🖨 Final Output
+## Final Output
 
 The project generates a duplex-ready printable PDF:
 
@@ -87,7 +87,7 @@ After double-sided printing and cutting, the cards can be used as physical learn
 
 ---
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
 - Building an object detection dataset  
 - Training and fine-tuning YOLOv8  
