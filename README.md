@@ -45,7 +45,8 @@ imageprocessing_project/
 │   └── back/
 ├── notebooks/
 └── print_pages/
-    └── print_short_edge.pdf```
+    └── print_short_edge.pdf
+
 
 ---
 
