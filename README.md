@@ -46,8 +46,7 @@ imageprocessing_project/
 ├── notebooks/
 └── print_pages/
     └── print_short_edge.pdf
-´´´
-
+```
 ---
 
 ## Workflow
