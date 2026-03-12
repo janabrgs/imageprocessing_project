@@ -90,4 +90,46 @@ After double-sided printing and cutting, the cards can be used as physical learn
 - Post-processing detection outputs  
 - Automated image cropping  
 - Generating print-ready layouts  
-- Handling duplex alignment logic  
+- Handling duplex alignment logic
+
+---
+
+## How to Run
+
+1. Clone the repository
+---
+
+git clone https://github.com/janabrgs/imageprocessing_project.git
+
+cd imageprocessing_project
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Place scanned flashcard pages in
+
+input_pages/
+
+4. Run the detection pipeline
+
+python run_pipeline.py
+
+The detection results will be saved in:
+
+runs/detect/
+
+---
+
+## Example Output
+
+Example flashcard sheet (front side):
+
+![Flashcards Front](example_front.jpg)
+
+Example flashcard sheet (back side):
+
+![Flashcards Back](example_back.jpg)
+
+
+
