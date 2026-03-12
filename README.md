@@ -102,6 +102,7 @@ After double-sided printing and cutting, the cards can be used as physical learn
 git clone https://github.com/janabrgs/imageprocessing_project.git
 cd imageprocessing_project
 
+```text
 2. Install dependencies
 
 ```bash
