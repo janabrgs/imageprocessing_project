@@ -97,21 +97,20 @@ After double-sided printing and cutting, the cards can be used as physical learn
 ## How to Run
 
 1. Clone the repository
----
 
+```bash
 git clone https://github.com/janabrgs/imageprocessing_project.git
-
 cd imageprocessing_project
 
-2. Install dependencies
+Install dependencies
 
 pip install -r requirements.txt
 
-3. Place scanned flashcard pages in
+Place scanned flashcard pages in:
 
 input_pages/
 
-4. Run the detection pipeline
+Run the detection pipeline
 
 python run_pipeline.py
 
@@ -119,17 +118,15 @@ The detection results will be saved in:
 
 runs/detect/
 
----
-
 ## Example Output
 
 Example flashcard sheet (front side):
 
-![Flashcards Front](example_front.jpg)
+![Flashcards Front](example_front.JPG)
 
 Example flashcard sheet (back side):
 
-![Flashcards Back](example_back.jpg)
+![Flashcards Back](example_back.JPG)
 
 
 
