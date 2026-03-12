@@ -100,23 +100,27 @@ After double-sided printing and cutting, the cards can be used as physical learn
 
 ```bash
 git clone https://github.com/janabrgs/imageprocessing_project.git
-cd imageprocessing_project
+cd imageprocessing_project```
 
-Install dependencies
+2. Install dependencies
 
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt```
 
-Place scanned flashcard pages in:
+3. Place scanned flashcard pages in:
 
-input_pages/
+```bash
+input_pages/```
 
-Run the detection pipeline
+4. Run the detection pipeline
 
-python run_pipeline.py
+```bash
+python run_pipeline.py```
 
 The detection results will be saved in:
 
-runs/detect/
+```bash
+runs/detect/```
 
 ## Example Output
 
